@@ -65,7 +65,7 @@ def oyun():
 
         else :
 
-            Kullanıcıya_sor = input("Eğer başka kart istiyorsanız 'evet' istemiyorsannız 'hayır' yazın : ")
+            Kullanıcıya_sor = input("Eğer başka kart istiyorsanız 'y' istemiyorsannız 'n' yazın : ")
             if Kullanıcıya_sor == "evet" :
                 kullanıcı_kartları.append(deal_card())
             else:
